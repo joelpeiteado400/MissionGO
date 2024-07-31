@@ -1,5 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import planeta from '../img/planeta.png';
+import cohete from '../img/cohete.png';
+import logosolo from '../img/logosin.png';
+
 
 
 const Hero = () => {
@@ -27,9 +31,9 @@ const Hero = () => {
             <div  className=" relative   w-auto h-auto max-h-[171.44px] flex items-center justify-center order-1 md:order-2 md:mb-0 md:mt-[50%] lg:mt-[35%] xl:mt-[30%] 2xl:mt-[20%]  col-span-4 mb-10 mt-10 ">
                     
                     
-                    <img className="absolute  w-2/3 md:w-4/5 h-auto md:h-auto z-[20] 2xl:w-3/5" src="src/img/logosin.png" alt="logo" />
-                    <img className="animate-cohete left-[70%] absolute  w-[11%] h-auto  md:w-16 md:h-auto md:left-[72%] lg:left-[72%] lg:w-20 z-[21] xl:w-20 xl:h-auto xl:left-[74%] 2xl:left-[68%] 2xl:w-24 " src="src/img/cohete.png" alt="cohete" />
-                    <img className="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute w-1/2 h-auto md:w-4/5 md:h-auto md: object-cover 2xl:w-7/12  " src="src/img/planeta.png" alt="planeta" />
+                    <img className="absolute  w-2/3 md:w-4/5 h-auto md:h-auto z-[20] 2xl:w-3/5" src={logosolo} alt="logo" />
+                    <img className="animate-cohete left-[70%] absolute  w-[11%] h-auto  md:w-16 md:h-auto md:left-[72%] lg:left-[72%] lg:w-20 z-[21] xl:w-20 xl:h-auto xl:left-[74%] 2xl:left-[68%] 2xl:w-24 " src={cohete} alt="cohete" />
+                    <img className="top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 absolute w-1/2 h-auto md:w-4/5 md:h-auto md: object-cover 2xl:w-7/12  " src={planeta} alt="planeta" />
                 
             </div>
         </section>

@@ -4,6 +4,8 @@ import React, {useState, useEffect} from "react";
 import { PillTabs } from "./AnimacionHeaderButton";
 import backgroundImg from '../img/fondomissiongo.png';
 import logo from '../img/logomissiongo.png';
+import coheteescudo from '../img/coheteescudo.png';
+
 
 
 const Headerprincipal = () => {
@@ -32,7 +34,7 @@ const Headerprincipal = () => {
           
             
                 <a href="#inicio" className="xl:pl-20 pl-10 md:pl-10 font-bold relative inline-block justify-center items-center">
-                    <img src="src/img/coheteescudo.png" className="w-14 movil1:w-10 flex items-center justify-center"></img> 
+                    <img src={coheteescudo} className="w-14 movil1:w-10 flex items-center justify-center"></img> 
                 </a>
                 
 

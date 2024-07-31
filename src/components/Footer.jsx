@@ -1,13 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faFacebookF, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import missiongo from '../img/missiongo.png';
 
 const Footer = () => {
     return(
         <div className="grid grid-cols-2 mt-10 w-full h-auto border-t-2  border-primary">
             <div className="flex justify-center items-center   ">
                 <a href="#inicio" className="inline-block">
-                <img  className="md:w-72  inline-block w-44 h-auto" src="src/img/missiongo.png"></img>
+                <img  className="md:w-72  inline-block w-44 h-auto" src={missiongo}></img>
                 </a>
                 
             </div>
