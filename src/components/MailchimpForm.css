@@ -1,0 +1,36 @@
+#mc_embed_signup {
+    background-image: linear-gradient(211deg, #2e014b 40%, #ed6e46 100%);
+    border-radius:20px;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    
+    
+   
+  }
+  #mensajeAgradecimiento{
+    background-image: linear-gradient(211deg, #2e014b 40%, #ed6e46 100%);
+  }
+  #mc_embed_signup .asterisk {
+    color: #e85c41;
+  }
+  
+  #mc_embed_signup .button {
+    background-color: #e85c41;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #mc_embed_signup .button:hover {
+    background-color: #d45437;
+  }
+
+  li{
+    margin-bottom: 0.5rem;
+    
+  }
+
+  
+  
+  /* Add any other styles needed for the form */

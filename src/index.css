@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-header{
+    background-image: linear-gradient(31deg, #ED6E46 0%, #6746ED 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+}
+.overflow-hidden{
+  overflow:hidden;
+}
+.blur-content{
+  filter:blur(2px);
+  transition: filter 0.3s ease;
+  
+}
+
+@keyframes moveUpDown{
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-6px);
+  
+  }
+}
+
+.animate-cohete{
+  animation: moveUpDown 2s infinite;
+}
+
+
+
